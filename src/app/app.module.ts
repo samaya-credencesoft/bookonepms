@@ -25,6 +25,7 @@ import {
 } from '@angular/material';
 import { BenefitsComponent } from './benefits/benefits.component';
 import { BookoneComponent } from './bookone/bookone.component';
+import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { BookoneComponent } from './bookone/bookone.component';
     ContactComponent,
     ServicesComponent,
     BenefitsComponent,
-    BookoneComponent
+    BookoneComponent,
+    PrivacyPolicyComponent
   ],
   imports: [
     BrowserModule,
